@@ -1,10 +1,10 @@
-scelta = -1
-while(scelta != 0):
+while True:
     print("Benvenuto nella nostra calcolatrice")
     print("Inserisci l'operazione che vuoi effettuare")
     scelta = int(input("1)sottrazione\n2)addizione\n0)exit\n"))
-
-    if scelta == 1:
+    if scelta == 0:
+        break
+    elif scelta == 1:
         n_1 = int(input("Inserisci il primo numero: "))
         n_2 = int(input("Inserisci il secondo numero: "))
         risultato = n_1 - n_2
